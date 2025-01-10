@@ -159,3 +159,104 @@ nav .nav-btn:hover {
 }
 
 /* pilars styles ends */
+
+
+/* viaion section style starts */
+.vision-section {
+    height: 765px;
+    
+
+}
+.vision-section h2 {
+    margin-bottom: 24px;
+    color: #0E0E0E;
+}
+.vision-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 32px 0;
+}
+.vision-card {
+    padding: 32px;
+    border-radius: 16px;
+
+}
+.vision-card img {
+    margin-bottom: 24px;
+}
+.vision-card h5 {
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.vision-card p {
+    margin-bottom: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.vision-card:nth-child(1){
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.vision-card:nth-child(2){
+    background-color: rgba(198, 228, 214, 1);
+}
+.vision-card:nth-child(3){
+    background-color: rgba(255, 194, 57, 0.2);
+}
+.btn-vision {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 11px 20px;
+    color: #fff;
+    border-radius: 8px;
+    transition: 2s;
+    border: 1px solid #fff;
+}
+.btn-color1{
+    background: #5490F5;
+}
+.btn-color1:hover {
+    color: #5490F5;
+    background: #fff;
+}
+.btn-color2 {
+    background: #09A15C;
+}
+.btn-color2:hover {
+    color: #09A15C;
+    background: #fff;
+}
+.btn-color3 {
+    background: #FFC239;
+}
+.btn-color3:hover {
+    color: #FFC239;
+    background: #fff;
+}
+
+
+
+/* quote style */
+.vision-quote-bg {
+    background-color: #fff;
+}
+.vision-quote {
+    background-image: url(/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top 25px left 24px;
+    height: 96px;
+    padding: 48px 24px;
+    border-radius: 16px;
+
+}
+.vision-quote p:nth-child(1){
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+.vision-quote h5 {
+    color: rgba(14, 14, 14, 0.8);
+}
+.vision-quote p:nth-last-child(1){
+    color: rgba(14, 14, 14, 0.6);
+}
+
+/* vision section style ends */
