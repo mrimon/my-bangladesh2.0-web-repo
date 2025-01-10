@@ -64,6 +64,11 @@
     font-size: 20px;
     font-weight: 700;
   }
+  .title-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+  }
 
   .btn-primary {
     color: #fff;
@@ -125,3 +130,32 @@ nav .nav-btn:hover {
 }
 
 /* header styles ends */
+
+/* pilars styles starts */
+.pilars-section {
+    margin-bottom: 80px;
+}
+.pilars-section h2 {
+    color: #0E0E0E;
+    margin-bottom: 32px;
+}
+.pilars {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.pilar {
+    background: #fff;
+    border-radius: 24px;
+    padding: 24px;
+
+}
+.pilar img {
+    margin-bottom: 24px;
+}
+.pilar h5 {
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+/* pilars styles ends */
