@@ -343,3 +343,63 @@ nav .nav-btn:hover {
 }
 
 /* donate section styles ends */
+
+
+/* subscribe styles starts  */
+.subscribe {
+    height: 395px;
+    background: #C6E4D6;
+    margin: 80px 0;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe-container {
+    max-width: 720px;
+    height: 235px;
+    text-align: center;
+
+}
+.subscribe-container h2 {
+    margin-bottom: 16px;
+    color: #0E0E0E;
+}
+.subscribe-container p {
+    color: rgba(14, 14, 14, 0.7);
+}
+.input-container {
+    margin: 24px 0;
+    width: 100%;
+    display: flex;
+}
+.input-container input[type="text"]::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.3);
+    margin-left: 40px;
+}
+.input-container input[type="text"]{
+    padding: 18px 0 18px 40px;
+    width: 80%;
+    border: none;
+    border-radius: 8px 0 0 8px;
+
+}
+.input-container input[type="submit"]{
+    padding: 18px 40px;
+    border:none;
+    border-radius: 0 8px 8px 0;
+    background: #006A50;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #006a50;
+    transition: 2s;
+    cursor: pointer;
+}
+.input-container input[type="submit"]:hover {
+    background: #fff;
+    color: #006A50;
+}
+/* subscribe styles ends  */
